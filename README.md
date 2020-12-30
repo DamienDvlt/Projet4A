@@ -6,7 +6,7 @@
 
 ## Présentation
 Projet consistant en la création d'une application android sur android studio codé en Kotlin sur l'univers de Pokemon.
-Cette application affiche la liste  premieres chaines d'évolution de la 1ere generation de Pokemon et utilise une API de https://pokeapi.co/
+Cette application affiche la liste des pokemon de la 1ere génération en utilisant un API 
 
 ## Prérequis
 Installation du logiciel Android Studio
