@@ -33,4 +33,4 @@ Installation du logiciel Android Studio
 
 ### Logo de l'application
 * Splash Screen de la widget de l'application
-<img scr="https://github.com/DamienDvlt/Projet4A/blob/master/projet%20mobile%20photo/logo%20application.jpg" width="360" height="640" />
+<img src="https://github.com/DamienDvlt/Projet4A/blob/master/projet%20mobile%20photo/logo%20application.jpg" width="360" height="640" />
