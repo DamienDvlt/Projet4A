@@ -20,7 +20,7 @@
         app:layout_constraintBottom_toTopOf="@+id/password_layout">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/login_edit"
+            android:id="@+id/login_edit2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
@@ -42,7 +42,7 @@
         app:layout_constraintBottom_toTopOf="@+id/password_check_layout">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/password_edit"
+            android:id="@+id/password_edit2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"

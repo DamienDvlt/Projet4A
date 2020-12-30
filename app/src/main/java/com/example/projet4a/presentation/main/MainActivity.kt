@@ -26,20 +26,21 @@ class MainActivity : AppCompatActivity() {
 
                 LoginError -> {
                     MaterialAlertDialogBuilder(this)
-                        .setTitle("Tu t'es tromper chacal")
-                        .setMessage("Compte inexistant \nVeuillez créer un compte !\nClique sur OK si t'as capter chacal")
+                        .setTitle("Tu t'es trompé chacal")
+                        .setMessage("Compte inexistant \nVeuillez créer un compte !\nClique sur OK si t'as capté chacal")
                         .setPositiveButton("OK") { dialog, which ->
                             dialog.dismiss()
                         }
                         .show()
-                    val monIntent : Intent =  Intent(this, PokemonActivity::class.java)
-                    startActivity(monIntent)
                 }
             }
         })
         login_button.setOnClickListener {
             mainViewModel.onClickedLogin(login_edit.text.toString().trim(), password_edit.text.toString().trim())
         }
-
+        create_account_button.setOnClickListener {
+            val monIntent : Intent =  Intent(this, CreateAccountActivity::class.java)
+            startActivity(monIntent)
+        }
     }
 }

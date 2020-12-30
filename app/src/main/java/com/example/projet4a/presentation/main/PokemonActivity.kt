@@ -10,7 +10,7 @@ class PokemonActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pokemon_main)
 
-        toolbar.setTitle("DES DIGIMOM OMG")
+        toolbar.setTitle("WTF tout les Pokemon de la 1G")
         setSupportActionBar(toolbar)
     }
 }

@@ -1,5 +1,7 @@
 package com.example.projet4a.presentation.main
 
+import android.content.Intent
+import androidx.core.content.ContextCompat.startActivity
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -28,6 +30,12 @@ class MainViewModel(
             withContext(Dispatchers.Main) {
                 loginLiveData.value = loginStatus
             }
+        }
+    }
+
+    fun onClickedValidation(user: User) {
+        viewModelScope.launch(Dispatchers.IO) {
+            createUserUseCase.invoke(user)
         }
     }
 }
